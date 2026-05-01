@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasión por Lorca. Vívelo a lo grande</title>
+    <!-- Estilos CSS y Scripts JS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/funciones.js"></script>
+    <!-- Fuentes de Google Fonts -->
+    <!-- Italianno -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <!-- Inria Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+    <!-- Librería AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header id="encabezado">
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="media/imagenes/Logo Web.png" alt="" class="logo">
+        </a>
+
+        <!-- Menú Horizontal -->
+        <nav class="menuHorizontal">
+            <a href="#">Inicio</a>
+            <a href="#zonaPestanas">Zona de Pestañas</a>
+            <a href="#galeriaImagenes">Galería de Imágenes</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Hero Image -->
+    <section id="heroImage">
+        <div class="imagenHero">
+            <img src="media/imagenes/imagenSlider1.jpg" alt="Imagen 1" class="active">
+            <img src="media/imagenes/imagenSlider2.jpg" alt="Imagen 2">
+            <img src="media/imagenes/imagenSlider3.jpg" alt="Imagen 3">
+            <img src="media/imagenes/imagenSlider4.jpg" alt="Imagen 4">
+            <img src="media/imagenes/imagenSlider5.jpg" alt="Imagen 5">
+        </div>
+    </section>
+
+    <!-- Zona de Pestañas -->
+    <section>
+        <div id="zonaPestanas">
+            <div class="tabs">
+                <button onclick="showGallery(0)">P. Azul</button>
+                <button onclick="showGallery(1)">P. Negro</button>
+                <button onclick="showGallery(2)">P. Morado</button>
+                <button onclick="showGallery(3)">P. Blanco</button>
+                <button onclick="showGallery(4)">P. Encarnado</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Imágenes -->
+    <section>
+        <div id="galeriaImagenes">
+            <!-- Animación de la librería AOS -->
+            <h2 data-aos="fade-up-left" data-aos-duration="1000">Galería de Imágenes</h2>
+            <div class="gallery active" id="pasoAzul">
+                <img src="media/imagenes/Paso Azul.jpg" alt="Hermandad de Labradores 1">
+                <img src="media/imagenes/Etiopes.jpg" alt="Hermandad de Labradores 2">
+                <img src="media/imagenes/Virgen de los Dolores. Paso Azul.jpg" alt="Hermandad de Labradores 3">
+                <img src="media/imagenes/Banderas Paso Azul.jpg" alt="Hermandad de Labradores 4">
+                <img src="media/imagenes/Biga Paso Azul.jpg" alt="Hermandad de Labradores 5">
+                <img src="media/imagenes/Estandartes Paso Azul.jpg" alt="Hermandad de Labradores 6">
+                <img src="media/imagenes/Nazarenos Paso Azul.jpg" alt="Hermandad de Labradores 7">
+                <img src="media/imagenes/Siga Paso Azul.jpg" alt="Hermandad de Labradores 8">
+            </div>
+            <div class="gallery" id="pasoNegro">
+                <img src="media/imagenes/Paso Negro.jpg" alt="Hermandad de la Curia 1">
+                <!-- Vídeo que ha sido insertado. Pero que al ser un video no se incluye en su Slider correspondiente -->
+                <video src="media/videos/Video Paso Negro.mp4" controls
+                    poster="media/imagenes/Poster Video Paso Negro.jpg"></video>
+                <img src="media/imagenes/Bandera Paso Negro.jpg" alt="Hermandad de la Curia 3">
+                <img src="media/imagenes/Estadarte DR Paso Negro.jpg" alt="Hermandad de la Curia 4">
+                <img src="media/imagenes/Estadarte Paso Negro.jpg" alt="Hermandad de la Curia 5">
+                <img src="media/imagenes/Mayordomos Paso Negro.jpg" alt="Hermandad de la Curia 6">
+                <img src="media/imagenes/Virgen de la Soledad Iglesia Paso Negro.jpg" alt="Hermandad de la Curia 7">
+                <img src="media/imagenes/Virgen de la Soledad Saliendo Paso Negro.jpg" alt="Hermandad de la Curia 8">
+            </div>
+            <div class="gallery" id="pasoMorado">
+                <img src="media/imagenes/Paso Morado.jpg" alt="Cofradía del Santísimo Cristo del Perdón 1">
+                <img src="media/imagenes/Subida Calvario Paso Morado.jpg"
+                    alt="Cofradía del Santísimo Cristo del Perdón 2">
+                <img src="media/imagenes/Ultima Cena Paso Morado.jpg" alt="Cofradía del Santísimo Cristo del Perdón 3">
+                <img src="media/imagenes/Estandarte Paso Morado.jpg" alt="Cofradía del Santísimo Cristo del Perdón 4">
+                <img src="media/imagenes/Banda Paso Morado.jpg" alt="Cofradía del Santísimo Cristo del Perdón 5">
+                <img src="media/imagenes/Crito del Perdon Paso Morado.jpg"
+                    alt="Cofradía del Santísimo Cristo del Perdón 6">
+                <img src="media/imagenes/Nazarenos Paso Morado.jpg" alt="Cofradía del Santísimo Cristo del Perdón 7">
+                <img src="media/imagenes/Estandartes Procesionando Paso Morado.jpg"
+                    alt="Cofradía del Santísimo Cristo del Perdón 8">
+            </div>
+            <div class="gallery" id="pasoBlanco">
+                <img src="media/imagenes/Paso Blanco.jpeg" alt="Orden-Archicofradía de Nuestra Señora del Rosario 1">
+                <img src="media/imagenes/Reina de Shaba.jpg" alt="Orden-Archicofradía de Nuestra Señora del Rosario 2">
+                <img src="media/imagenes/Virgen de la Amargura.jpg"
+                    alt="Orden-Archicofradía de Nuestra Señora del Rosario 3">
+                <img src="media/imagenes/Veronica Paso Blanco.jpg"
+                    alt="Orden-Archicofradía de Nuestra Señora del Rosario 4">
+                <img src="media/imagenes/Bandera Paso Blanco.jpg"
+                    alt="Orden-Archicofradía de Nuestra Señora del Rosario 5">
+                <img src="media/imagenes/Estandarte Paso Blanco.jpg"
+                    alt="Orden-Archicofradía de Nuestra Señora del Rosario 6">
+                <img src="media/imagenes/Cuadriga Paso Blanco.jpg"
+                    alt="Orden-Archicofradía de Nuestra Señora del Rosario 7">
+                <img src="media/imagenes/Santa Elena Paso Blanco.jpg"
+                    alt="Orden-Archicofradía de Nuestra Señora del Rosario 8">
+            </div>
+            <div class="gallery" id="pasoEncarnado">
+                <img src="media/imagenes/Paso Encarnado.jpg" alt="Archicofradía del Santísimo Cristo de la Sangre 1">
+                <img src="media/imagenes/Jesus de la Penitencia Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 2">
+                <img src="media/imagenes/Cristo de la Sangre Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 3">
+                <img src="media/imagenes/Virgen de la Soledad Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 4">
+                <img src="media/imagenes/Encuentro Imagenes Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 5">
+                <img src="media/imagenes/Estandartes Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 6">
+                <img src="media/imagenes/Nazarenos Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 7">
+                <img src="media/imagenes/Banda Paso Encarnado.jpg"
+                    alt="Archicofradía del Santísimo Cristo de la Sangre 8">
+            </div>
+
+            <!-- Lightbox -->
+            <div id="lightbox" class="lightbox">
+                <span class="close">&times;</span>
+                <img class="lightbox-content" id="lightbox-img" alt="Imagen ampliada">
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contacto">
+        <h2>Formulario de Contacto</h2>
+        <form id="miFormulario">
+            <input type="text" placeholder="Nombre" aria-label="Nombre" required><br>
+            <input type="email" placeholder="Correo Electrónico" aria-label="Correo Electrónico" required><br>
+            <textarea placeholder="Comentario" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Estructura del Modal del Formulario de Contacto -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p id="contenidoModal"></p>
+            <button id="cerrarModal" class="closeModal">Cerrar</button>
+        </div>
+    </div>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="footerIzquierda">
+            <a href="media/imagenes/Politica de Privacidad.jpg" target="_blank">Política de privacidad</a>
+        </div>
+        <div class="footerCentro">
+            <a href="index.html">
+                <img src="media/imagenes/Logo Web.png" alt="" class="footerLogo">
+            </a>
+        </div>
+        <!-- Animación de la librería AOS -->
+        <div class="footerDerecha" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p>Pasión por Lorca</p><br>
+            <p>Vívelo a lo grande</p>
+        </div>
+    </footer>
+
+    <!-- Script para activar la librería AOS -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
