@@ -4,4 +4,4 @@ En su día, fue desarrollado dentro de las métricas establecidas, pero con la p
 En mi caso, escogí la Semana Santa de Lorca.
 
 Para poder visualizar el proyecto en un navegador, se tendrá que descargar, o bien clonar el repositorio a través de GitHub Desktop.
-Una vez realizado este paso, abrir en el navegador el archivo index.html,
+Una vez realizado este paso, abrir en el navegador el archivo index.html.
